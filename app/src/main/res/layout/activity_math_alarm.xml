@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#0D47A1" android:gravity="center" android:padding="20dp" android:layoutDirection="rtl">
+    <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="נער את המכשיר!" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="20dp"/>
+    <ProgressBar android:id="@+id/motionProgress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginBottom="30dp"/>
+    <EditText android:id="@+id/etAnswer" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="הקלד: אני ער לגמרי" android:textColorHint="#BBBBBB" android:textColor="#FFFFFF" android:gravity="center" android:visibility="gone" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/btnSubmit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="אישור" android:backgroundTint="#4CAF50" android:textColor="#FFFFFF" android:visibility="gone"/>
+</LinearLayout>
